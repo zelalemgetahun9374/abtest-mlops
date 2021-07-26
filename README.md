@@ -81,6 +81,7 @@ The repository has a number of files including python scripts, jupyter notebooks
 ### root folder
 - `10 Academy Batch 4 - Week 2 Challenge.pdf`: the challenge document
 - `requirements.txt`: a text file lsiting the projet's dependancies
+- `travis.yml`: a configuration file for Travis CI
 - `setup.py`: a configuration file for installing the scripts as a package
 - `README.md`: Markdown text with a brief explanation of the project and the repository structure.
 
