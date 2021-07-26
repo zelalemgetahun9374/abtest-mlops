@@ -2,8 +2,6 @@ import os
 import sys
 import pandas as pd
 
-sys.path.append(os.path.abspath(os.path.join('../')))
-
 class CsvHelper():
 
   def __init__(self):
