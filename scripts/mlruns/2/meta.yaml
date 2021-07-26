@@ -1,0 +1,4 @@
+artifact_location: file:///home/z/Documents/abtest-mlops/scripts/mlruns/2
+experiment_id: '2'
+lifecycle_stage: active
+name: Decision Tree
