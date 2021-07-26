@@ -1,0 +1,20 @@
+26-07-2021 23:15:17 : ERROR : root : File not found.
+Traceback (most recent call last):
+  File "csv_helper.py", line 21, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "/home/z/.local/lib/python3.8/site-packages/pandas/io/parsers.py", line 610, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/z/.local/lib/python3.8/site-packages/pandas/io/parsers.py", line 462, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/z/.local/lib/python3.8/site-packages/pandas/io/parsers.py", line 819, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/home/z/.local/lib/python3.8/site-packages/pandas/io/parsers.py", line 1050, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/home/z/.local/lib/python3.8/site-packages/pandas/io/parsers.py", line 1867, in __init__
+    self._open_handles(src, kwds)
+  File "/home/z/.local/lib/python3.8/site-packages/pandas/io/parsers.py", line 1362, in _open_handles
+    self.handles = get_handle(
+  File "/home/z/.local/lib/python3.8/site-packages/pandas/io/common.py", line 642, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: './a.csv'
+26-07-2021 23:15:17 : INFO : root : HI
