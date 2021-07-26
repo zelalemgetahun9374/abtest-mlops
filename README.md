@@ -81,7 +81,7 @@ The repository has a number of files including python scripts, jupyter notebooks
 - the folder containing unit tests for components in the scripts
 
 ### logs:
-- the folder containing log files
+- the folder containing log files (if it doesn't exist it will be created once logging starts)
 
 ### root folder
 - `10 Academy Batch 4 - Week 2 Challenge.pdf`: the challenge document
