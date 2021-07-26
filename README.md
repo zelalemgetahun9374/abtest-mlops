@@ -1,6 +1,6 @@
 # abtest-mlops
 
-**Table of content**
+**Table of Contents**
 
 - [abtest-mlops](#abtest-mlops)
   - [Overview](#overview)
