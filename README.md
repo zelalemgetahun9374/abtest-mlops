@@ -14,6 +14,7 @@
     - [notebooks:](#notebooks)
     - [scripts](#scripts)
     - [tests:](#tests)
+    - [logs:](#logs)
     - [root folder](#root-folder)
   - [Installation guide](#installation-guide)
 
@@ -61,6 +62,7 @@ The repository has a number of files including python scripts, jupyter notebooks
 - `Machine Learning A/B Testing.ipynb`: a jupyter notebook for A/B testing using machine learning algorithms
 
 ### scripts
+- `app_logger.py`: a python script for logging
 - `csv_helper.py`: a python script for handling reading and writing of csv files
 - `df_cleaner.py`: a python script for cleaning pandas dataframes
 - `df_selector.py`: a python script for selecting data from a pandas dataframe
@@ -77,6 +79,9 @@ The repository has a number of files including python scripts, jupyter notebooks
 
 ### tests:
 - the folder containing unit tests for components in the scripts
+
+### logs:
+- the folder containing log files
 
 ### root folder
 - `10 Academy Batch 4 - Week 2 Challenge.pdf`: the challenge document
